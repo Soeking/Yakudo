@@ -12,5 +12,4 @@ class CameraActivity : AppCompatActivity() {
                 .replace(R.id.container, Camera2BasicFragment.newInstance())
                 .commit()
     }
-
 }

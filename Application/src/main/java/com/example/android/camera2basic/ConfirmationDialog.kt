@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.support.v4.app.DialogFragment
 
 class ConfirmationDialog : DialogFragment() {
+    val REQUEST_CAMERA_PERMISSION=1
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog =
             AlertDialog.Builder(activity)

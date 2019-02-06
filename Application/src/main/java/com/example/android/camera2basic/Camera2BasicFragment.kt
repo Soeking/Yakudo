@@ -1,8 +1,8 @@
 package com.example.android.camera2basic
 
 import android.Manifest
-import android.app.AlertDialog
 import android.content.Context
+import android.content.Intent
 import android.content.pm.PackageManager
 import android.content.res.Configuration
 import android.graphics.ImageFormat
@@ -20,6 +20,7 @@ import android.hardware.camera2.CaptureRequest
 import android.hardware.camera2.CaptureResult
 import android.hardware.camera2.TotalCaptureResult
 import android.media.ImageReader
+import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import android.os.HandlerThread
@@ -35,8 +36,8 @@ import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
 import java.io.File
-import java.util.Arrays
-import java.util.Collections
+import java.text.SimpleDateFormat
+import java.util.*
 import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
@@ -44,7 +45,7 @@ import kotlin.collections.ArrayList
 class Camera2BasicFragment : Fragment(), View.OnClickListener,
         ActivityCompat.OnRequestPermissionsResultCallback {
 
-    private val surfaceTextureListener = object : TextureView.SurfaceTextureListener {
+     private val surfaceTextureListener = object : TextureView.SurfaceTextureListener {
 
         override fun onSurfaceTextureAvailable(texture: SurfaceTexture, width: Int, height: Int) {
             openCamera(width, height)
@@ -115,6 +116,8 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
     private var sensorOrientation = 0
 
+    private val REQUEST_CAMERA_PERMISSION = 1
+
     private val captureCallback = object : CameraCaptureSession.CaptureCallback() {
 
         private fun process(result: CaptureResult) {
@@ -176,18 +179,13 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         view.findViewById<View>(R.id.picture).setOnClickListener(this)
-        view.findViewById<View>(R.id.info).setOnClickListener(this)
         textureView = view.findViewById(R.id.texture)
-    }
-
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        file = File(activity.getExternalFilesDir(null), PIC_FILE_NAME)
     }
 
     override fun onResume() {
         super.onResume()
         startBackgroundThread()
+
         if (textureView.isAvailable) {
             openCamera(textureView.width, textureView.height)
         } else {
@@ -227,6 +225,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
         try {
             for (cameraId in manager.cameraIdList) {
                 val characteristics = manager.getCameraCharacteristics(cameraId)
+
                 val cameraDirection = characteristics.get(CameraCharacteristics.LENS_FACING)
                 if (cameraDirection != null &&
                         cameraDirection == CameraCharacteristics.LENS_FACING_FRONT) {
@@ -235,11 +234,12 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
                 val map = characteristics.get(
                         CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP) ?: continue
+
                 val largest = Collections.max(
                         Arrays.asList(*map.getOutputSizes(ImageFormat.JPEG)),
                         CompareSizesByArea())
                 imageReader = ImageReader.newInstance(largest.width, largest.height,
-                        ImageFormat.JPEG,  2).apply {
+                        ImageFormat.JPEG,2).apply {
                     setOnImageAvailableListener(onImageAvailableListener, backgroundHandler)
                 }
 
@@ -269,7 +269,8 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                     textureView.setAspectRatio(previewSize.height, previewSize.width)
                 }
 
-                flashSupported = characteristics.get(CameraCharacteristics.FLASH_INFO_AVAILABLE) == true
+                flashSupported =
+                        characteristics.get(CameraCharacteristics.FLASH_INFO_AVAILABLE) == true
 
                 this.cameraId = cameraId
 
@@ -281,7 +282,6 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             ErrorDialog.newInstance(getString(R.string.camera_error))
                     .show(childFragmentManager, FRAGMENT_DIALOG)
         }
-
     }
 
     private fun areDimensionsSwapped(displayRotation: Int): Boolean {
@@ -314,7 +314,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
         configureTransform(width, height)
         val manager = activity.getSystemService(Context.CAMERA_SERVICE) as CameraManager
         try {
-            if (!cameraOpenCloseLock.tryAcquire(2500, TimeUnit.MILLISECONDS)) {
+            if (!cameraOpenCloseLock.tryAcquire(50, TimeUnit.MILLISECONDS)) {
                 throw RuntimeException("Time out waiting to lock camera opening.")
             }
             manager.openCamera(cameraId, stateCallback, backgroundHandler)
@@ -356,6 +356,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
         } catch (e: InterruptedException) {
             Log.e(TAG, e.toString())
         }
+
     }
 
     private fun createCameraPreviewSession() {
@@ -461,8 +462,10 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             val captureBuilder = cameraDevice?.createCaptureRequest(
                     CameraDevice.TEMPLATE_STILL_CAPTURE)?.apply {
                 addTarget(imageReader?.surface)
+
                 set(CaptureRequest.JPEG_ORIENTATION,
                         (ORIENTATIONS.get(rotation) + sensorOrientation + 270) % 360)
+
                 set(CaptureRequest.CONTROL_AF_MODE,
                         CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE)
             }?.also { setAutoFlash(it) }
@@ -474,6 +477,9 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                         result: TotalCaptureResult) {
                     activity.showToast("Saved: $file")
                     Log.d(TAG, file.toString())
+                    val contentUri = Uri.fromFile(file)
+                    val mediaScanIntent = Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, contentUri)
+                    context.sendBroadcast(mediaScanIntent)
                     unlockFocus()
                 }
             }
@@ -507,7 +513,13 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
     override fun onClick(view: View) {
         when (view.id) {
-            R.id.picture -> lockFocus()
+            R.id.picture ->{
+                val form= SimpleDateFormat("yyyyMMddHHmmss")
+                val data= Date(System.currentTimeMillis())
+                val PIC_FILE_NAME = "${form.format(data)}.jpg"
+                file = File("/storage/emulated/0/DCIM/Camera2/", PIC_FILE_NAME)
+                lockFocus()
+            }
         }
     }
 
@@ -546,7 +558,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
         private val MAX_PREVIEW_HEIGHT = 1080
 
-        @JvmStatic private fun chooseOptimalSize(
+        private fun chooseOptimalSize(
                 choices: Array<Size>,
                 textureViewWidth: Int,
                 textureViewHeight: Int,
@@ -580,6 +592,6 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             }
         }
 
-        @JvmStatic fun newInstance(): Camera2BasicFragment = Camera2BasicFragment()
+        fun newInstance(): Camera2BasicFragment = Camera2BasicFragment()
     }
 }
