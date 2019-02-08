@@ -238,8 +238,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                 val largest = Collections.max(
                         Arrays.asList(*map.getOutputSizes(ImageFormat.JPEG)),
                         CompareSizesByArea())
-                imageReader = ImageReader.newInstance(largest.width, largest.height,
-                        ImageFormat.JPEG,2).apply {
+                imageReader = ImageReader.newInstance(largest.width, largest.height, ImageFormat.JPEG,2).apply {
                     setOnImageAvailableListener(onImageAvailableListener, backgroundHandler)
                 }
 
@@ -430,11 +429,9 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
     private fun lockFocus() {
         try {
-            previewRequestBuilder.set(CaptureRequest.CONTROL_AF_TRIGGER,
-                    CameraMetadata.CONTROL_AF_TRIGGER_START)
+            previewRequestBuilder.set(CaptureRequest.CONTROL_AF_TRIGGER, CameraMetadata.CONTROL_AF_TRIGGER_START)
             state = STATE_WAITING_LOCK
-            captureSession?.capture(previewRequestBuilder.build(), captureCallback,
-                    backgroundHandler)
+            captureSession?.capture(previewRequestBuilder.build(), captureCallback, backgroundHandler)
         } catch (e: CameraAccessException) {
             Log.e(TAG, e.toString())
         }
