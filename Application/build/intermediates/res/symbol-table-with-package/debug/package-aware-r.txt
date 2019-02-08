@@ -91,6 +91,7 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr camera_id
 attr checkboxStyle
 attr checkedTextViewStyle
 attr closeIcon
@@ -268,6 +269,7 @@ attr showAsAction
 attr showDividers
 attr showText
 attr showTitle
+attr show_fps
 attr singleChoiceItemLayout
 attr spanCount
 attr spinBars
@@ -759,8 +761,10 @@ id add
 id alertTitle
 id all
 id always
+id any
 id async
 id auto
+id back
 id beginning
 id blocking
 id bottom
@@ -801,6 +805,7 @@ id fill_horizontal
 id fill_vertical
 id fixed
 id forever
+id front
 id ghost_view
 id home
 id homeAsUp
@@ -1439,6 +1444,7 @@ styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle a
 styleable BottomNavigationView elevation itemBackground itemIconTint itemTextColor menu
 styleable BottomSheetBehavior_Layout behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
+styleable CameraBridgeViewBase camera_id show_fps
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

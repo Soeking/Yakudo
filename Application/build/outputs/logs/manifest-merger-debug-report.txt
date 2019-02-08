@@ -6,6 +6,7 @@ INJECTED from C:\praand\yakudoCamera\Application\src\main\AndroidManifest.xml:3:
 INJECTED from C:\praand\yakudoCamera\Application\src\main\AndroidManifest.xml:3:1-26:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\30243f67fb2e2774887c2ae2425aea26\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\14794e428ccb655554525b26298acc30\AndroidManifest.xml:17:1-31:12
+MERGED from [:openCVLibrary342] C:\praand\yakudoCamera\openCVLibrary342\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1cf83ea0252623f54593a6f2455d349b\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6c31cd921be1a1682eb538ff7704699b\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\4a351d7e0875d3cae23c009d1da04c06\AndroidManifest.xml:17:1-28:12
@@ -110,6 +111,8 @@ MERGED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\tra
 MERGED from [com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\30243f67fb2e2774887c2ae2425aea26\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\14794e428ccb655554525b26298acc30\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\14794e428ccb655554525b26298acc30\AndroidManifest.xml:21:5-23:78
+MERGED from [:openCVLibrary342] C:\praand\yakudoCamera\openCVLibrary342\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary342] C:\praand\yakudoCamera\openCVLibrary342\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1cf83ea0252623f54593a6f2455d349b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1cf83ea0252623f54593a6f2455d349b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6c31cd921be1a1682eb538ff7704699b\AndroidManifest.xml:20:5-44
