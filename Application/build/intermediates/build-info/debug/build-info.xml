@@ -6,29 +6,29 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.3.0"
-    timestamp="1549643465735"
+    timestamp="1549726322106"
     token="-4184658744126712845"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="349" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1233" />
+        duration="237" />
     <task
         name="verifier"
-        duration="0" />
+        duration="89" />
 
-    <artifact
-        location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
     <artifact
         location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\praand\yakudoCamera\Application\build\intermediates\instant-run-apk\debug\Application-debug.apk"
+        type="SPLIT_MAIN" />
     <artifact
         location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
@@ -45,6 +45,9 @@
         location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
+        location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
@@ -59,20 +62,17 @@
     <artifact
         location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\praand\yakudoCamera\Application\build\intermediates\instant-run-apk\debug\Application-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1549643465735"
+        timestamp="1549726322106"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
         <artifact
             location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\praand\yakudoCamera\Application\build\intermediates\instant-run-apk\debug\Application-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -89,6 +89,9 @@
             location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
@@ -103,9 +106,6 @@
         <artifact
             location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\praand\yakudoCamera\Application\build\intermediates\instant-run-apk\debug\Application-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

@@ -62,13 +62,9 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     }
 
     private lateinit var cameraId: String
-
     private lateinit var textureView: AutoFitTextureView
-
     private var captureSession: CameraCaptureSession? = null
-
     private var cameraDevice: CameraDevice? = null
-
     private lateinit var previewSize: Size
 
     private val stateCallback = object : CameraDevice.StateCallback() {
@@ -93,11 +89,8 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     }
 
     private var backgroundThread: HandlerThread? = null
-
     private var backgroundHandler: Handler? = null
-
     private var imageReader: ImageReader? = null
-
     private lateinit var file: File
 
     private val onImageAvailableListener = ImageReader.OnImageAvailableListener {
@@ -105,18 +98,15 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     }
 
     private lateinit var previewRequestBuilder: CaptureRequest.Builder
-
     private lateinit var previewRequest: CaptureRequest
-
     private var state = STATE_PREVIEW
-
     private val cameraOpenCloseLock = Semaphore(1)
-
     private var flashSupported = false
-
     private var sensorOrientation = 0
-
     private val REQUEST_CAMERA_PERMISSION = 1
+    val form= SimpleDateFormat("yyyyMMddHHmmss")
+    var data= Date(System.currentTimeMillis())
+    var PIC_FILE_NAME = "${form.format(data)}.jpg"
 
     private val captureCallback = object : CameraCaptureSession.CaptureCallback() {
 
@@ -389,7 +379,6 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                             } catch (e: CameraAccessException) {
                                 Log.e(TAG, e.toString())
                             }
-
                         }
 
                         override fun onConfigureFailed(session: CameraCaptureSession) {
@@ -472,6 +461,9 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                 override fun onCaptureCompleted(session: CameraCaptureSession,
                         request: CaptureRequest,
                         result: TotalCaptureResult) {
+                    /**
+                     * here?
+                     */
                     activity.showToast("Saved: $file")
                     Log.d(TAG, file.toString())
                     val contentUri = Uri.fromFile(file)
@@ -511,9 +503,8 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     override fun onClick(view: View) {
         when (view.id) {
             R.id.picture ->{
-                val form= SimpleDateFormat("yyyyMMddHHmmss")
-                val data= Date(System.currentTimeMillis())
-                val PIC_FILE_NAME = "${form.format(data)}.jpg"
+                data= Date(System.currentTimeMillis())
+                PIC_FILE_NAME = "${form.format(data)}.jpg"
                 file = File("/storage/emulated/0/DCIM/Camera2/", PIC_FILE_NAME)
                 lockFocus()
             }
