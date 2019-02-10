@@ -35,6 +35,11 @@ import android.view.Surface
 import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
+import org.opencv.core.Core
+import org.opencv.core.Mat
+import org.opencv.core.Rect
+import org.opencv.imgcodecs.Imgcodecs
+import org.opencv.imgproc.Imgproc
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*
@@ -461,9 +466,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                 override fun onCaptureCompleted(session: CameraCaptureSession,
                         request: CaptureRequest,
                         result: TotalCaptureResult) {
-                    /**
-                     * here?
-                     */
+                    yakudo()
                     activity.showToast("Saved: $file")
                     Log.d(TAG, file.toString())
                     val contentUri = Uri.fromFile(file)
@@ -518,8 +521,24 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
         }
     }
 
-    companion object {
+    private fun yakudo(){
+        var src= Imgcodecs.imread("/storage/emulated/0/DCIM/Camera2/${PIC_FILE_NAME}")
+        var sub=src.clone()
+        var alpha:Double
+        var beta:Double
+        var rect= Rect(100,100,1000,1000)
 
+        for (i in 0..1){
+            alpha=1/(i+1).toDouble()
+            beta=1-alpha
+            sub=Mat(sub,rect)
+            Imgproc.resize(sub,sub,src.size())
+            Core.addWeighted(src,alpha,sub,beta,0.0,src)
+        }
+        Imgcodecs.imwrite("/storage/emulated/0/DCIM/Camera2/$PIC_FILE_NAME",src)
+    }
+
+    companion object {
         private val ORIENTATIONS = SparseIntArray()
         private val FRAGMENT_DIALOG = "dialog"
 
