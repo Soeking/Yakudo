@@ -467,7 +467,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                         request: CaptureRequest,
                         result: TotalCaptureResult) {
                     yakudo()
-                    activity.showToast("Saved: $file")
+                    activity.showToast("Saved")
                     Log.d(TAG, file.toString())
                     val contentUri = Uri.fromFile(file)
                     val mediaScanIntent = Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, contentUri)
