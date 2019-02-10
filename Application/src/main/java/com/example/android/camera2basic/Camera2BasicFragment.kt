@@ -530,7 +530,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
         val heiY=src.size().height.toInt()
         var rect= Rect(widX/200,heiY/200,widX*198/200,heiY*198/200)
 
-        for (i in 0..15){
+        for (i in 0..16){
             alpha=1/(i+2).toDouble()
             beta=1-alpha
             sub=Mat(sub,rect)
