@@ -526,16 +526,18 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
         var sub=src.clone()
         var alpha:Double
         var beta:Double
-        var rect= Rect(100,100,1000,1000)
+        val widX=src.size().width.toInt()
+        val heiY=src.size().height.toInt()
+        var rect= Rect(widX/200,heiY/200,widX*198/200,heiY*198/200)
 
-        for (i in 0..1){
-            alpha=1/(i+1).toDouble()
+        for (i in 0..15){
+            alpha=1/(i+2).toDouble()
             beta=1-alpha
             sub=Mat(sub,rect)
             Imgproc.resize(sub,sub,src.size())
-            Core.addWeighted(src,alpha,sub,beta,0.0,src)
+            Core.addWeighted(src,beta,sub,alpha,0.0,src)
         }
-        Imgcodecs.imwrite("/storage/emulated/0/DCIM/Camera2/$PIC_FILE_NAME",src)
+        Imgcodecs.imwrite("/storage/emulated/0/DCIM/Camera2/${PIC_FILE_NAME}",src)
     }
 
     companion object {

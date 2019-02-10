@@ -7,7 +7,7 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.3.0"
-    timestamp="1549790375844"
+    timestamp="1549791842539"
     token="-4184658744126712845"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -19,10 +19,10 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="32" />
+        duration="27" />
     <task
         name="verifier"
-        duration="17" />
+        duration="6" />
 
     <artifact
         location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -75,7 +75,25 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1549790375844"
+        timestamp="1549790914722"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\praand\yakudoCamera\Application\build\intermediates\instant-run-apk\debug\Application-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1549791783946"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\praand\yakudoCamera\Application\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1549791842539"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\praand\yakudoCamera\Application\build\intermediates\split-apk\debug\slices\slice_0.apk"
