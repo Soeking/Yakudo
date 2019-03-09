@@ -467,11 +467,15 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                         request: CaptureRequest,
                         result: TotalCaptureResult) {
                     yakudo()
+                    var contentUri = Uri.fromFile(file)
+                    var mediaScanIntent = Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, contentUri)
+                    context.sendBroadcast(mediaScanIntent)
+                    file = File("/storage/emulated/0/DCIM/Camera2/0$PIC_FILE_NAME")
+                    contentUri= Uri.fromFile(file)
+                    mediaScanIntent=Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE,contentUri)
+                    context.sendBroadcast(mediaScanIntent)
                     activity.showToast("Saved")
                     Log.d(TAG, file.toString())
-                    val contentUri = Uri.fromFile(file)
-                    val mediaScanIntent = Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, contentUri)
-                    context.sendBroadcast(mediaScanIntent)
                     unlockFocus()
                 }
             }
@@ -537,7 +541,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             Imgproc.resize(sub,sub,src.size())
             Core.addWeighted(src,beta,sub,alpha,0.0,src)
         }
-        Imgcodecs.imwrite("/storage/emulated/0/DCIM/Camera2/${PIC_FILE_NAME}",src)
+        Imgcodecs.imwrite("/storage/emulated/0/DCIM/Camera2/0${PIC_FILE_NAME}",src)
     }
 
     companion object {

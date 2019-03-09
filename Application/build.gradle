@@ -8,7 +8,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "com.example.android.camera2basic"
+        applicationId "my.yakudo"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
