@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import org.opencv.android.OpenCVLoader
+import java.io.File
 
 class CameraActivity : AppCompatActivity() {
 
@@ -16,6 +17,11 @@ class CameraActivity : AppCompatActivity() {
 
         if (OpenCVLoader.initDebug()){
             Log.i("SUCCESS","OK")
+        }
+
+        val dir = File("/storage/emulated/0/DCIM/Yakudo/")
+        if (!dir.exists()){
+            dir.mkdir()
         }
     }
 }

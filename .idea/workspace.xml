@@ -13,637 +13,21 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/android/camera2basic/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/example/android/camera2basic/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/generated/source/buildConfig/debug/com/example/android/camera2basic/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/generated/source/buildConfig/debug/com/example/android/camera2basic/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/BuildConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$captureStillPicture$captureCallback$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$captureStillPicture$captureCallback$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_dep/debug/dependencies/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_dep/debug/dependencies/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/BHD58g0e_g0UhSzpIjsZQfU7NOA=" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/BHD58g0e_g0UhSzpIjsZQfU7NOA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_app_manifest/debug/processDebugManifest/instant-app-manifest/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_app_info_output_file/debug/generateDebugInstantRunAppInfo/instant-run-bootstrap.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_app_info_output_file/debug/generateDebugInstantRunAppInfo/instant-run-bootstrap.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_main_apk_resources/debug/instantRunMainApkResourcesDebug/out/main_resources/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_main_apk_resources/debug/instantRunMainApkResourcesDebug/out/main_resources/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_0/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_0/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_0/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_0/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_1/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_1/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_1/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_1/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_2/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_2/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_2/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_2/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_3/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_3/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_3/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_3/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_4/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_4/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_4/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_4/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_5/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_5/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_5/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_5/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_6/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_6/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_6/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_6/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_7/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_7/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_7/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_7/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_8/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_8/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_8/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_8/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_9/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_9/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_9/resources_ap" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant_run_split_apk_resources/debug/instantRunSplitApkResourcesDebug/out/slice_9/resources_ap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/camera2basic/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/example/android/camera2basic/BuildConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/manifest-checker/debug/manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifest-checker/debug/manifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/processed_res/debug/processDebugResources/out/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/processed_res/debug/processDebugResources/out/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/resources/instant-run/debug/resources-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/resources/instant-run/debug/resources-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/dep/dependencies.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/dep/dependencies.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/resources/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/resources/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_1.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_1.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_2.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_2.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_4.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_4.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_5.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_5.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_6.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_6.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_7.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_7.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_8.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_8.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_9.apk" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_9.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/100.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/101.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/102.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/103.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/104.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/105.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/106.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/107.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/108.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/109.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/113.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/117.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/120.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/121.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/122.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/123.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/124.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/125.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/126.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/127.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/128.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/129.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/140.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/141.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/142.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/143.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/144.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/145.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/146.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/147.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/148.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/149.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/15.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/150.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/152.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/153.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/154.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/156.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/159.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/16.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/16.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/160.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/161.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/162.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/163.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/164.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/165.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/169.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/17.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/17.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/172.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/173.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/174.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/176.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/177.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/179.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/18.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/18.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ActivityExtensionsKt$showToast$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ActivityExtensionsKt.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/AutoFitTextureView.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/Camera2BasicFragment$Companion.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/Camera2BasicFragment$captureCallback$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/Camera2BasicFragment$captureStillPicture$captureCallback$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/Camera2BasicFragment$createCameraPreviewSession$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/Camera2BasicFragment$onImageAvailableListener$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/Camera2BasicFragment$stateCallback$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/Camera2BasicFragment$surfaceTextureListener$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/Camera2BasicFragment.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/CameraActivity.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/CompareSizesByArea.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ConfirmationDialog$onCreateDialog$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ConfirmationDialog$onCreateDialog$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ConfirmationDialog.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ErrorDialog$Companion.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ErrorDialog$onCreateDialog$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ErrorDialog.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ImageSaver$Companion.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/ImageSaver.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$anim.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$animator.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/com/example/android/camera2basic/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/calib3d/Calib3d.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/calib3d/StereoBM.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/calib3d/StereoMatcher.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/calib3d/StereoSGBM.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/engine/OpenCVEngineInterface$Stub$Proxy.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/engine/OpenCVEngineInterface$Stub.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/engine/OpenCVEngineInterface.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/imgcodecs/Imgcodecs.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/objdetect/BaseCascadeClassifier.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/objdetect/CascadeClassifier.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/objdetect/HOGDescriptor.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/180/org/opencv/objdetect/Objdetect.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/181/org/opencv/imgproc/CLAHE.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/181/org/opencv/imgproc/Imgproc.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/181/org/opencv/imgproc/LineSegmentDetector.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/181/org/opencv/imgproc/Moments.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/181/org/opencv/imgproc/Subdiv2D.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/181/org/opencv/videoio/VideoCapture.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/181/org/opencv/videoio/VideoWriter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/181/org/opencv/videoio/Videoio.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/coreui/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/android/support/v7/recyclerview/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/AlignExposures.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/AlignMTB.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/CalibrateCRF.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/CalibrateDebevec.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/CalibrateRobertson.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/MergeDebevec.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/MergeExposures.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/MergeMertens.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/MergeRobertson.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/Photo.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/Tonemap.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/TonemapDrago.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/TonemapDurand.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/TonemapMantiuk.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/182/org/opencv/photo/TonemapReinhard.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/android/support/fragment/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/BackgroundSubtractor.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/BackgroundSubtractorKNN.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/BackgroundSubtractorMOG2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/DenseOpticalFlow.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/DualTVL1OpticalFlow.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/FarnebackOpticalFlow.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/KalmanFilter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/SparseOpticalFlow.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/SparsePyrLKOpticalFlow.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/183/org/opencv/video/Video.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/184/android/arch/lifecycle/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/AsyncServiceHelper$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/AsyncServiceHelper$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/AsyncServiceHelper$3$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/AsyncServiceHelper$3$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/AsyncServiceHelper$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/AsyncServiceHelper.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/BaseLoaderCallback$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/BaseLoaderCallback$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/BaseLoaderCallback$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/BaseLoaderCallback$4.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/BaseLoaderCallback$5.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/BaseLoaderCallback$6.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/BaseLoaderCallback$7.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/BaseLoaderCallback.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/Camera2Renderer$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/Camera2Renderer$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/Camera2Renderer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraBridgeViewBase$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraBridgeViewBase$CvCameraViewFrame.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraBridgeViewBase$CvCameraViewListener.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraBridgeViewBase$CvCameraViewListener2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraBridgeViewBase$CvCameraViewListenerAdapter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraBridgeViewBase$ListItemAccessor.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraBridgeViewBase.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraGLRendererBase.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraGLSurfaceView$CameraTextureListener.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraGLSurfaceView.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/CameraRenderer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/FpsMeter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/InstallCallbackInterface.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCamera2View$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCamera2View$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCamera2View$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCamera2View$JavaCamera2Frame.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCamera2View.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCameraView$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCameraView$CameraWorker.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCameraView$JavaCameraFrame.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCameraView$JavaCameraSizeAccessor.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/JavaCameraView.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/LoaderCallbackInterface.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/OpenCVLoader.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/StaticHelper.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/185/org/opencv/android/Utils.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/graphics/drawable/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/android/support/transition/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/org/opencv/dnn/DictValue.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/org/opencv/dnn/Dnn.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/org/opencv/dnn/Layer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/186/org/opencv/dnn/Net.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/coreutils/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/graphics/drawable/animated/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/mediacompat/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v4/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$anim.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/187/android/support/v7/appcompat/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/188/org/opencv/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/188/org/opencv/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/188/org/opencv/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/188/org/opencv/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/188/org/opencv/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/188/org/opencv/osgi/OpenCVInterface.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/188/org/opencv/osgi/OpenCVNativeLoader.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/compat/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$anim.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$animator.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/android/support/design/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Algorithm.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Core$MinMaxLocResult.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Core.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/CvException.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/CvType.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/DMatch.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/KeyPoint.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Mat.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfByte.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfDMatch.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfDouble.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfFloat.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfFloat4.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfFloat6.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfInt.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfInt4.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfKeyPoint.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfPoint.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfPoint2f.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfPoint3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfPoint3f.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfRect.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/MatOfRect2d.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Point.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Point3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Range.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Rect.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Rect2d.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/RotatedRect.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Scalar.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/Size.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/TermCriteria.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/core/TickMeter.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/AKAZE.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/AgastFeatureDetector.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/BFMatcher.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/BOWImgDescriptorExtractor.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/BOWKMeansTrainer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/BOWTrainer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/BRISK.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/DescriptorExtractor.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/DescriptorMatcher.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/FastFeatureDetector.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/Feature2D.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/FeatureDetector.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/Features2d.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/FlannBasedMatcher.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/GFTTDetector.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/KAZE.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/MSER.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/ORB.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/features2d/Params.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/ANN_MLP.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/ANN_MLP_ANNEAL.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/Boost.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/DTrees.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/EM.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/KNearest.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/LogisticRegression.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/Ml.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/NormalBayesClassifier.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/ParamGrid.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/RTrees.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/SVM.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/SVMSGD.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/StatModel.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/ml/TrainData.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/189/org/opencv/utils/Converters.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/19.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/19.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/190.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/191.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/192.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/193.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/194.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/195.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/196.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/197.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/198.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/199.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/20.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/20.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/201.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/212.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/213.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/214.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/215.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/216.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/217.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/218.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/219.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/220.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/221.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/223.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/224.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/225.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/226.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/227.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/228.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/229.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/230.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/231.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/232.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/234.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/235.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/236.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/237.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/238.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/239.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/240.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/241.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/242.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/243.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/30.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/31.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/31.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/33.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/33.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/34.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/37.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/37.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/38.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/38.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/41.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/50.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/51.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/52.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/53.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/54.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/55.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/56.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/57.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/58.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/59.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/60.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/61.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/62.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/63.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/64.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/65.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/66.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/67.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/68.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/69.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/70.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/71.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/72.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/73.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/74.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/75.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/76.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/77.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/78.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/79.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/8.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/80.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/81.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/82.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/83.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/84.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/85.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/86.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/87.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/88.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/89.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/90.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/91.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/92.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/93.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/94.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/95.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/96.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/97.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/98.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/99.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/21/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/21/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/BuildConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$captureStillPicture$captureCallback$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$captureStillPicture$captureCallback$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/CameraActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/CameraActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/21/com/example/android/camera2basic/CameraActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/21/com/example/android/camera2basic/CameraActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/CameraActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/CameraActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/build/tmp/kotlin-classes/debug/com/example/android/camera2basic/CameraActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Application/build/tmp/kotlin-classes/debug/com/example/android/camera2basic/CameraActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openCVLibrary342/openCVLibrary342.iml" beforeDir="false" afterPath="$PROJECT_DIR$/openCVLibrary342/openCVLibrary342.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -713,7 +97,7 @@
         <counts>
           <entry key="gradle" value="31" />
           <entry key="java" value="1" />
-          <entry key="kt" value="998" />
+          <entry key="kt" value="1044" />
           <entry key="txt" value="7" />
           <entry key="xml" value="113" />
         </counts>
@@ -722,7 +106,7 @@
         <counts>
           <entry key="Groovy" value="31" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="998" />
+          <entry key="Kotlin" value="1044" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="113" />
         </counts>
@@ -734,8 +118,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="481" selection-start-line="481" selection-end-line="481" />
+            <state relative-caret-position="-503">
+              <caret line="476" column="47" selection-start-line="476" selection-start-column="47" selection-end-line="476" selection-end-column="47" />
+              <folding>
+                <element signature="e#42#1661#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -743,17 +130,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/ConfirmationDialog.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#42#197#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -769,12 +150,12 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/fragment_camera2_basic.xml">
-          <provider selected="true" editor-type-id="android-designer2" />
           <provider editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -4299,9 +3680,9 @@
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Yakudo.kt" />
         <option value="$PROJECT_DIR$/Application/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/ConfirmationDialog.kt" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraActivity.kt" />
         <option value="$PROJECT_DIR$/Application/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Application/build.gradle" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraActivity.kt" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt" />
       </list>
     </option>
@@ -4316,17 +3697,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="yakudoCamera" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -4339,6 +3709,36 @@
               <item name="yakudoCamera" type="b2602c69:ProjectViewProjectNode" />
               <item name="yakudoCamera" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="Application" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yakudoCamera" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Application" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="yakudoCamera" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Application" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="yakudoCamera" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Application" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="camera2basic" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yakudoCamera" type="1abcf292:AndroidViewProjectNode" />
+              <item name="openCVLibrary342" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="yakudoCamera" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -4499,12 +3899,12 @@
       <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout-land/fragment_camera2_basic.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/ImageSaver.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -4581,20 +3981,6 @@
     <entry file="file://$PROJECT_DIR$/Application/release/Application-release.apk">
       <provider selected="true" editor-type-id="apk-viewer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="481" selection-start-line="481" selection-end-line="481" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/ConfirmationDialog.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -4610,10 +3996,30 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/res/layout/fragment_camera2_basic.xml">
-      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/CameraActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#42#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-503">
+          <caret line="476" column="47" selection-start-line="476" selection-start-column="47" selection-end-line="476" selection-end-column="47" />
+          <folding>
+            <element signature="e#42#1661#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

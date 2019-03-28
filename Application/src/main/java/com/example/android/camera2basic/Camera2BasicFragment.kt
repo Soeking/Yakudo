@@ -470,12 +470,11 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                     var contentUri = Uri.fromFile(file)
                     var mediaScanIntent = Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, contentUri)
                     context.sendBroadcast(mediaScanIntent)
-                    file = File("/storage/emulated/0/DCIM/Camera2/0$PIC_FILE_NAME")
+                    file = File("/storage/emulated/0/DCIM/Yakudo/0$PIC_FILE_NAME")
                     contentUri= Uri.fromFile(file)
                     mediaScanIntent=Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE,contentUri)
                     context.sendBroadcast(mediaScanIntent)
                     activity.showToast("Saved")
-                    Log.d(TAG, file.toString())
                     unlockFocus()
                 }
             }
@@ -512,7 +511,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             R.id.picture ->{
                 data= Date(System.currentTimeMillis())
                 PIC_FILE_NAME = "${form.format(data)}.jpg"
-                file = File("/storage/emulated/0/DCIM/Camera2/", PIC_FILE_NAME)
+                file = File("/storage/emulated/0/DCIM/Yakudo/", PIC_FILE_NAME)
                 lockFocus()
             }
         }
@@ -526,7 +525,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     }
 
     private fun yakudo(){
-        var src= Imgcodecs.imread("/storage/emulated/0/DCIM/Camera2/${PIC_FILE_NAME}")
+        var src= Imgcodecs.imread("/storage/emulated/0/DCIM/Yakudo/${PIC_FILE_NAME}")
         var sub=src.clone()
         var alpha:Double
         var beta:Double
@@ -541,7 +540,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             Imgproc.resize(sub,sub,src.size())
             Core.addWeighted(src,beta,sub,alpha,0.0,src)
         }
-        Imgcodecs.imwrite("/storage/emulated/0/DCIM/Camera2/0${PIC_FILE_NAME}",src)
+        Imgcodecs.imwrite("/storage/emulated/0/DCIM/Yakudo/0${PIC_FILE_NAME}",src)
     }
 
     companion object {
@@ -555,7 +554,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             ORIENTATIONS.append(Surface.ROTATION_270, 180)
         }
 
-        private val TAG = "Camera2BasicFragment"
+        private val TAG = "yakudoFragment"
 
         private val STATE_PREVIEW = 0
 
