@@ -1,2 +1,2 @@
-Application/build/* linguist-documentation
-openCVLibrary342/* linguist-documentation
+Application/build/generated/* linguist-documentation
+openCVLibrary342/src/main/* linguist-documentation
