@@ -9,7 +9,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="604ef00f-4a2d-40ee-8187-45dc4c8adc7d" name="Default Changelist" comment="" />
+    <list default="true" id="604ef00f-4a2d-40ee-8187-45dc4c8adc7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
         <counts>
           <entry key="gradle" value="31" />
           <entry key="java" value="1" />
-          <entry key="kt" value="1070" />
+          <entry key="kt" value="1121" />
           <entry key="txt" value="7" />
           <entry key="xml" value="113" />
         </counts>
@@ -87,7 +89,7 @@
         <counts>
           <entry key="Groovy" value="31" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="1070" />
+          <entry key="Kotlin" value="1121" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="113" />
         </counts>
@@ -99,10 +101,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="544" selection-start-line="544" selection-end-line="544" />
+            <state relative-caret-position="292">
+              <caret line="499" lean-forward="true" selection-start-line="499" selection-end-line="499" />
               <folding>
                 <element signature="e#42#1661#0" expanded="true" />
+                <element signature="e#7869#7907#1" expanded="true" />
+                <element signature="e#11089#11121#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3971,10 +3975,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="544" selection-start-line="544" selection-end-line="544" />
+        <state relative-caret-position="292">
+          <caret line="499" lean-forward="true" selection-start-line="499" selection-end-line="499" />
           <folding>
             <element signature="e#42#1661#0" expanded="true" />
+            <element signature="e#7869#7907#1" expanded="true" />
+            <element signature="e#11089#11121#1" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -47,10 +47,9 @@ import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
 
-class Camera2BasicFragment : Fragment(), View.OnClickListener,
-        ActivityCompat.OnRequestPermissionsResultCallback {
+class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.OnRequestPermissionsResultCallback {
 
-     private val surfaceTextureListener = object : TextureView.SurfaceTextureListener {
+    private val surfaceTextureListener = object : TextureView.SurfaceTextureListener {
 
         override fun onSurfaceTextureAvailable(texture: SurfaceTexture, width: Int, height: Int) {
             openCamera(width, height)
@@ -109,9 +108,10 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     private var flashSupported = false
     private var sensorOrientation = 0
     private val REQUEST_CAMERA_PERMISSION = 1
-    val form= SimpleDateFormat("yyyyMMddHHmmss")
-    var data= Date(System.currentTimeMillis())
+    val form = SimpleDateFormat("yyyyMMddHHmmss")
+    var data = Date(System.currentTimeMillis())
     var PIC_FILE_NAME = "${form.format(data)}.jpg"
+    val rand = Random()
 
     private val captureCallback = object : CameraCaptureSession.CaptureCallback() {
 
@@ -121,9 +121,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                 STATE_WAITING_LOCK -> capturePicture(result)
                 STATE_WAITING_PRECAPTURE -> {
                     val aeState = result.get(CaptureResult.CONTROL_AE_STATE)
-                    if (aeState == null ||
-                            aeState == CaptureResult.CONTROL_AE_STATE_PRECAPTURE ||
-                            aeState == CaptureRequest.CONTROL_AE_STATE_FLASH_REQUIRED) {
+                    if (aeState == null || aeState == CaptureResult.CONTROL_AE_STATE_PRECAPTURE || aeState == CaptureRequest.CONTROL_AE_STATE_FLASH_REQUIRED) {
                         state = STATE_WAITING_NON_PRECAPTURE
                     }
                 }
@@ -141,8 +139,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             val afState = result.get(CaptureResult.CONTROL_AF_STATE)
             if (afState == null) {
                 captureStillPicture()
-            } else if (afState == CaptureResult.CONTROL_AF_STATE_FOCUSED_LOCKED
-                    || afState == CaptureResult.CONTROL_AF_STATE_NOT_FOCUSED_LOCKED) {
+            } else if (afState == CaptureResult.CONTROL_AF_STATE_FOCUSED_LOCKED || afState == CaptureResult.CONTROL_AF_STATE_NOT_FOCUSED_LOCKED) {
                 val aeState = result.get(CaptureResult.CONTROL_AE_STATE)
                 if (aeState == null || aeState == CaptureResult.CONTROL_AE_STATE_CONVERGED) {
                     state = STATE_PICTURE_TAKEN
@@ -153,24 +150,17 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             }
         }
 
-        override fun onCaptureProgressed(session: CameraCaptureSession,
-                request: CaptureRequest,
-                partialResult: CaptureResult) {
+        override fun onCaptureProgressed(session: CameraCaptureSession, request: CaptureRequest, partialResult: CaptureResult) {
             process(partialResult)
         }
 
-        override fun onCaptureCompleted(session: CameraCaptureSession,
-                request: CaptureRequest,
-                result: TotalCaptureResult) {
+        override fun onCaptureCompleted(session: CameraCaptureSession, request: CaptureRequest, result: TotalCaptureResult) {
             process(result)
         }
 
     }
 
-    override fun onCreateView(inflater: LayoutInflater,
-            container: ViewGroup?,
-            savedInstanceState: Bundle?
-    ): View? = inflater.inflate(R.layout.fragment_camera2_basic, container, false)
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? = inflater.inflate(R.layout.fragment_camera2_basic, container, false)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         view.findViewById<View>(R.id.picture).setOnClickListener(this)
@@ -202,13 +192,10 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
         }
     }
 
-    override fun onRequestPermissionsResult(requestCode: Int,
-            permissions: Array<String>,
-            grantResults: IntArray) {
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
         if (requestCode == REQUEST_CAMERA_PERMISSION) {
             if (grantResults.size != 1 || grantResults[0] != PackageManager.PERMISSION_GRANTED) {
-                ErrorDialog.newInstance(getString(R.string.request_permission))
-                        .show(childFragmentManager, FRAGMENT_DIALOG)
+                ErrorDialog.newInstance(getString(R.string.request_permission)).show(childFragmentManager, FRAGMENT_DIALOG)
             }
         } else {
             super.onRequestPermissionsResult(requestCode, permissions, grantResults)
@@ -222,18 +209,15 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                 val characteristics = manager.getCameraCharacteristics(cameraId)
 
                 val cameraDirection = characteristics.get(CameraCharacteristics.LENS_FACING)
-                if (cameraDirection != null &&
-                        cameraDirection == CameraCharacteristics.LENS_FACING_FRONT) {
+                if (cameraDirection != null && cameraDirection == CameraCharacteristics.LENS_FACING_FRONT) {
                     continue
                 }
 
-                val map = characteristics.get(
-                        CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP) ?: continue
+                val map = characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP)
+                        ?: continue
 
-                val largest = Collections.max(
-                        Arrays.asList(*map.getOutputSizes(ImageFormat.JPEG)),
-                        CompareSizesByArea())
-                imageReader = ImageReader.newInstance(largest.width, largest.height, ImageFormat.JPEG,2).apply {
+                val largest = Collections.max(Arrays.asList(*map.getOutputSizes(ImageFormat.JPEG)), CompareSizesByArea())
+                imageReader = ImageReader.newInstance(largest.width, largest.height, ImageFormat.JPEG, 2).apply {
                     setOnImageAvailableListener(onImageAvailableListener, backgroundHandler)
                 }
 
@@ -252,10 +236,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                 if (maxPreviewWidth > MAX_PREVIEW_WIDTH) maxPreviewWidth = MAX_PREVIEW_WIDTH
                 if (maxPreviewHeight > MAX_PREVIEW_HEIGHT) maxPreviewHeight = MAX_PREVIEW_HEIGHT
 
-                previewSize = chooseOptimalSize(map.getOutputSizes(SurfaceTexture::class.java),
-                        rotatedPreviewWidth, rotatedPreviewHeight,
-                        maxPreviewWidth, maxPreviewHeight,
-                        largest)
+                previewSize = chooseOptimalSize(map.getOutputSizes(SurfaceTexture::class.java), rotatedPreviewWidth, rotatedPreviewHeight, maxPreviewWidth, maxPreviewHeight, largest)
 
                 if (resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
                     textureView.setAspectRatio(previewSize.width, previewSize.height)
@@ -263,8 +244,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
                     textureView.setAspectRatio(previewSize.height, previewSize.width)
                 }
 
-                flashSupported =
-                        characteristics.get(CameraCharacteristics.FLASH_INFO_AVAILABLE) == true
+                flashSupported = characteristics.get(CameraCharacteristics.FLASH_INFO_AVAILABLE) == true
 
                 this.cameraId = cameraId
 
@@ -273,8 +253,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
         } catch (e: CameraAccessException) {
             Log.e(TAG, e.toString())
         } catch (e: NullPointerException) {
-            ErrorDialog.newInstance(getString(R.string.camera_error))
-                    .show(childFragmentManager, FRAGMENT_DIALOG)
+            ErrorDialog.newInstance(getString(R.string.camera_error)).show(childFragmentManager, FRAGMENT_DIALOG)
         }
     }
 
@@ -361,35 +340,30 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
             val surface = Surface(texture)
 
-            previewRequestBuilder = cameraDevice!!.createCaptureRequest(
-                    CameraDevice.TEMPLATE_PREVIEW
-            )
+            previewRequestBuilder = cameraDevice!!.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW)
             previewRequestBuilder.addTarget(surface)
 
-            cameraDevice?.createCaptureSession(Arrays.asList(surface, imageReader?.surface),
-                    object : CameraCaptureSession.StateCallback() {
+            cameraDevice?.createCaptureSession(Arrays.asList(surface, imageReader?.surface), object : CameraCaptureSession.StateCallback() {
 
-                        override fun onConfigured(cameraCaptureSession: CameraCaptureSession) {
-                            if (cameraDevice == null) return
+                override fun onConfigured(cameraCaptureSession: CameraCaptureSession) {
+                    if (cameraDevice == null) return
 
-                            captureSession = cameraCaptureSession
-                            try {
-                                previewRequestBuilder.set(CaptureRequest.CONTROL_AF_MODE,
-                                        CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE)
-                                setAutoFlash(previewRequestBuilder)
+                    captureSession = cameraCaptureSession
+                    try {
+                        previewRequestBuilder.set(CaptureRequest.CONTROL_AF_MODE, CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE)
+                        setAutoFlash(previewRequestBuilder)
 
-                                previewRequest = previewRequestBuilder.build()
-                                captureSession?.setRepeatingRequest(previewRequest,
-                                        captureCallback, backgroundHandler)
-                            } catch (e: CameraAccessException) {
-                                Log.e(TAG, e.toString())
-                            }
-                        }
+                        previewRequest = previewRequestBuilder.build()
+                        captureSession?.setRepeatingRequest(previewRequest, captureCallback, backgroundHandler)
+                    } catch (e: CameraAccessException) {
+                        Log.e(TAG, e.toString())
+                    }
+                }
 
-                        override fun onConfigureFailed(session: CameraCaptureSession) {
-                            activity.showToast("Failed")
-                        }
-                    }, null)
+                override fun onConfigureFailed(session: CameraCaptureSession) {
+                    activity.showToast("Failed")
+                }
+            }, null)
         } catch (e: CameraAccessException) {
             Log.e(TAG, e.toString())
         }
@@ -407,9 +381,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
         if (Surface.ROTATION_90 == rotation || Surface.ROTATION_270 == rotation) {
             bufferRect.offset(centerX - bufferRect.centerX(), centerY - bufferRect.centerY())
-            val scale = Math.max(
-                    viewHeight.toFloat() / previewSize.height,
-                    viewWidth.toFloat() / previewSize.width)
+            val scale = Math.max(viewHeight.toFloat() / previewSize.height, viewWidth.toFloat() / previewSize.width)
             with(matrix) {
                 setRectToRect(viewRect, bufferRect, Matrix.ScaleToFit.FILL)
                 postScale(scale, scale, centerX, centerY)
@@ -434,11 +406,9 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
     private fun runPrecaptureSequence() {
         try {
-            previewRequestBuilder.set(CaptureRequest.CONTROL_AE_PRECAPTURE_TRIGGER,
-                    CaptureRequest.CONTROL_AE_PRECAPTURE_TRIGGER_START)
+            previewRequestBuilder.set(CaptureRequest.CONTROL_AE_PRECAPTURE_TRIGGER, CaptureRequest.CONTROL_AE_PRECAPTURE_TRIGGER_START)
             state = STATE_WAITING_PRECAPTURE
-            captureSession?.capture(previewRequestBuilder.build(), captureCallback,
-                    backgroundHandler)
+            captureSession?.capture(previewRequestBuilder.build(), captureCallback, backgroundHandler)
         } catch (e: CameraAccessException) {
             Log.e(TAG, e.toString())
         }
@@ -450,29 +420,24 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             if (activity == null || cameraDevice == null) return
             val rotation = activity.windowManager.defaultDisplay.rotation
 
-            val captureBuilder = cameraDevice?.createCaptureRequest(
-                    CameraDevice.TEMPLATE_STILL_CAPTURE)?.apply {
+            val captureBuilder = cameraDevice?.createCaptureRequest(CameraDevice.TEMPLATE_STILL_CAPTURE)?.apply {
                 addTarget(imageReader?.surface)
 
-                set(CaptureRequest.JPEG_ORIENTATION,
-                        (ORIENTATIONS.get(rotation) + sensorOrientation + 270) % 360)
+                set(CaptureRequest.JPEG_ORIENTATION, (ORIENTATIONS.get(rotation) + sensorOrientation + 270) % 360)
 
-                set(CaptureRequest.CONTROL_AF_MODE,
-                        CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE)
+                set(CaptureRequest.CONTROL_AF_MODE, CaptureRequest.CONTROL_AF_MODE_CONTINUOUS_PICTURE)
             }?.also { setAutoFlash(it) }
 
             val captureCallback = object : CameraCaptureSession.CaptureCallback() {
 
-                override fun onCaptureCompleted(session: CameraCaptureSession,
-                        request: CaptureRequest,
-                        result: TotalCaptureResult) {
+                override fun onCaptureCompleted(session: CameraCaptureSession, request: CaptureRequest, result: TotalCaptureResult) {
                     yakudo()
                     var contentUri = Uri.fromFile(file)
                     var mediaScanIntent = Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, contentUri)
                     context.sendBroadcast(mediaScanIntent)
                     file = File("/storage/emulated/0/DCIM/Yakudo/0$PIC_FILE_NAME")
-                    contentUri= Uri.fromFile(file)
-                    mediaScanIntent=Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE,contentUri)
+                    contentUri = Uri.fromFile(file)
+                    mediaScanIntent = Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, contentUri)
                     context.sendBroadcast(mediaScanIntent)
                     activity.showToast("Saved")
                     unlockFocus()
@@ -492,14 +457,11 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
     private fun unlockFocus() {
         try {
-            previewRequestBuilder.set(CaptureRequest.CONTROL_AF_TRIGGER,
-                    CameraMetadata.CONTROL_AF_TRIGGER_CANCEL)
+            previewRequestBuilder.set(CaptureRequest.CONTROL_AF_TRIGGER, CameraMetadata.CONTROL_AF_TRIGGER_CANCEL)
             setAutoFlash(previewRequestBuilder)
-            captureSession?.capture(previewRequestBuilder.build(), captureCallback,
-                    backgroundHandler)
+            captureSession?.capture(previewRequestBuilder.build(), captureCallback, backgroundHandler)
             state = STATE_PREVIEW
-            captureSession?.setRepeatingRequest(previewRequest, captureCallback,
-                    backgroundHandler)
+            captureSession?.setRepeatingRequest(previewRequest, captureCallback, backgroundHandler)
         } catch (e: CameraAccessException) {
             Log.e(TAG, e.toString())
         }
@@ -508,8 +470,8 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
     override fun onClick(view: View) {
         when (view.id) {
-            R.id.picture ->{
-                data= Date(System.currentTimeMillis())
+            R.id.picture -> {
+                data = Date(System.currentTimeMillis())
                 PIC_FILE_NAME = "${form.format(data)}.jpg"
                 file = File("/storage/emulated/0/DCIM/Yakudo/", PIC_FILE_NAME)
                 lockFocus()
@@ -519,28 +481,31 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
     private fun setAutoFlash(requestBuilder: CaptureRequest.Builder) {
         if (flashSupported) {
-            requestBuilder.set(CaptureRequest.CONTROL_AE_MODE,
-                    CaptureRequest.CONTROL_AE_MODE_ON_AUTO_FLASH)
+            requestBuilder.set(CaptureRequest.CONTROL_AE_MODE, CaptureRequest.CONTROL_AE_MODE_ON_AUTO_FLASH)
         }
     }
 
-    private fun yakudo(){
-        val src= Imgcodecs.imread("/storage/emulated/0/DCIM/Yakudo/${PIC_FILE_NAME}")
-        var sub=src.clone()
-        var alpha:Double
-        var beta:Double
-        val widX=src.size().width.toInt()
-        val heiY=src.size().height.toInt()
-        val rect= Rect(widX/250,heiY/250,widX*248/250,heiY*248/250)
+    private fun yakudo() {
+        val src = Imgcodecs.imread("/storage/emulated/0/DCIM/Yakudo/${PIC_FILE_NAME}")
+        var sub = src.clone()
+        var alpha: Double
+        var beta: Double
+        val x0 = rand.nextInt(8)
+        val x1 = rand.nextInt(8)
+        val y0 = rand.nextInt(8)
+        val y1 = rand.nextInt(8)
+        val widX = src.size().width.toInt()
+        val heiY = src.size().height.toInt()
+        val rect = Rect((widX / 250) + x0, (heiY / 250) + y0, (widX * 248 / 250) - x1, (heiY * 248 / 250) - y1)
 
-        for (i in 0..20){
-            alpha=1/(i+2).toDouble()
-            beta=1-alpha
-            sub=Mat(sub,rect)
-            Imgproc.resize(sub,sub,src.size())
-            Core.addWeighted(src,beta,sub,alpha,0.0,src)
+        for (i in 0..20) {
+            alpha = 1 / (i + 2).toDouble()
+            beta = 1 - alpha
+            sub = Mat(sub, rect)
+            Imgproc.resize(sub, sub, src.size())
+            Core.addWeighted(src, beta, sub, alpha, 0.0, src)
         }
-        Imgcodecs.imwrite("/storage/emulated/0/DCIM/Yakudo/0${PIC_FILE_NAME}",src)
+        Imgcodecs.imwrite("/storage/emulated/0/DCIM/Yakudo/0${PIC_FILE_NAME}", src)
     }
 
     companion object {
@@ -570,22 +535,14 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
         private val MAX_PREVIEW_HEIGHT = 1080
 
-        private fun chooseOptimalSize(
-                choices: Array<Size>,
-                textureViewWidth: Int,
-                textureViewHeight: Int,
-                maxWidth: Int,
-                maxHeight: Int,
-                aspectRatio: Size
-        ): Size {
+        private fun chooseOptimalSize(choices: Array<Size>, textureViewWidth: Int, textureViewHeight: Int, maxWidth: Int, maxHeight: Int, aspectRatio: Size): Size {
 
             val bigEnough = ArrayList<Size>()
             val notBigEnough = ArrayList<Size>()
             val w = aspectRatio.width
             val h = aspectRatio.height
             for (option in choices) {
-                if (option.width <= maxWidth && option.height <= maxHeight &&
-                        option.height == option.width * h / w) {
+                if (option.width <= maxWidth && option.height <= maxHeight && option.height == option.width * h / w) {
                     if (option.width >= textureViewWidth && option.height >= textureViewHeight) {
                         bigEnough.add(option)
                     } else {
