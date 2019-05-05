@@ -525,15 +525,15 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     }
 
     private fun yakudo(){
-        var src= Imgcodecs.imread("/storage/emulated/0/DCIM/Yakudo/${PIC_FILE_NAME}")
+        val src= Imgcodecs.imread("/storage/emulated/0/DCIM/Yakudo/${PIC_FILE_NAME}")
         var sub=src.clone()
         var alpha:Double
         var beta:Double
         val widX=src.size().width.toInt()
         val heiY=src.size().height.toInt()
-        var rect= Rect(widX/200,heiY/200,widX*198/200,heiY*198/200)
+        val rect= Rect(widX/250,heiY/250,widX*248/250,heiY*248/250)
 
-        for (i in 0..16){
+        for (i in 0..20){
             alpha=1/(i+2).toDouble()
             beta=1-alpha
             sub=Mat(sub,rect)
