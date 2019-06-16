@@ -1,4 +1,4 @@
-#Sun May 05 19:17:08 JST 2019
+#Sun Jun 16 19:16:46 JST 2019
 base.0=C\:\\praand\\yakudoCamera\\Application\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
 path.0=classes.dex
 renamed.0=classes.dex

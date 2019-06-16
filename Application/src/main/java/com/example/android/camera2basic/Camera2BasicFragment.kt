@@ -490,10 +490,10 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.On
         var sub = src.clone()
         var alpha: Double
         var beta: Double
-        val x0 = rand.nextInt(8)
-        val x1 = rand.nextInt(8)
-        val y0 = rand.nextInt(8)
-        val y1 = rand.nextInt(8)
+        val x0 = rand.nextInt(4)
+        val x1 = rand.nextInt(4)
+        val y0 = rand.nextInt(4)
+        val y1 = rand.nextInt(4)
         val widX = src.size().width.toInt()
         val heiY = src.size().height.toInt()
         val rect = Rect((widX / 250) + x0, (heiY / 250) + y0, (widX * 248 / 250) - x1, (heiY * 248 / 250) - y1)
