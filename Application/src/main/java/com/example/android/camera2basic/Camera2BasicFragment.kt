@@ -498,8 +498,8 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.On
         val heiY = src.size().height.toInt()
         val rect = Rect((widX / 250) + x0, (heiY / 250) + y0, (widX * 248 / 250) - x1, (heiY * 248 / 250) - y1)
 
-        for (i in 0..20) {
-            alpha = 1 / (i + 2).toDouble()
+        repeat(21) {
+            alpha = 1 / (it + 2).toDouble()
             beta = 1 - alpha
             sub = Mat(sub, rect)
             Imgproc.resize(sub, sub, src.size())
