@@ -46,6 +46,7 @@ import java.util.*
 import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
+import kotlin.math.max
 
 class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.OnRequestPermissionsResultCallback {
 
@@ -108,10 +109,10 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.On
     private var flashSupported = false
     private var sensorOrientation = 0
     private val REQUEST_CAMERA_PERMISSION = 1
-    val form = SimpleDateFormat("yyyyMMddHHmmss")
-    var data = Date(System.currentTimeMillis())
-    var PIC_FILE_NAME = "${form.format(data)}.jpg"
-    val rand = Random()
+    private val form = SimpleDateFormat("yyyyMMddHHmmss")
+    private var data = Date(System.currentTimeMillis())
+    private var PIC_FILE_NAME = "${form.format(data)}.jpg"
+    private val rand = Random()
 
     private val captureCallback = object : CameraCaptureSession.CaptureCallback() {
 
@@ -216,14 +217,14 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.On
                 val map = characteristics.get(CameraCharacteristics.SCALER_STREAM_CONFIGURATION_MAP)
                         ?: continue
 
-                val largest = Collections.max(Arrays.asList(*map.getOutputSizes(ImageFormat.JPEG)), CompareSizesByArea())
+                val largest = Collections.max(listOf(*map.getOutputSizes(ImageFormat.JPEG)), CompareSizesByArea())
                 imageReader = ImageReader.newInstance(largest.width, largest.height, ImageFormat.JPEG, 2).apply {
                     setOnImageAvailableListener(onImageAvailableListener, backgroundHandler)
                 }
 
                 val displayRotation = activity.windowManager.defaultDisplay.rotation
 
-                sensorOrientation = characteristics.get(CameraCharacteristics.SENSOR_ORIENTATION)
+                sensorOrientation = characteristics.get(CameraCharacteristics.SENSOR_ORIENTATION)!!
                 val swappedDimensions = areDimensionsSwapped(displayRotation)
 
                 val displaySize = Point()
@@ -343,7 +344,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.On
             previewRequestBuilder = cameraDevice!!.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW)
             previewRequestBuilder.addTarget(surface)
 
-            cameraDevice?.createCaptureSession(Arrays.asList(surface, imageReader?.surface), object : CameraCaptureSession.StateCallback() {
+            cameraDevice?.createCaptureSession(listOf(surface, imageReader?.surface), object : CameraCaptureSession.StateCallback() {
 
                 override fun onConfigured(cameraCaptureSession: CameraCaptureSession) {
                     if (cameraDevice == null) return
@@ -381,7 +382,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.On
 
         if (Surface.ROTATION_90 == rotation || Surface.ROTATION_270 == rotation) {
             bufferRect.offset(centerX - bufferRect.centerX(), centerY - bufferRect.centerY())
-            val scale = Math.max(viewHeight.toFloat() / previewSize.height, viewWidth.toFloat() / previewSize.width)
+            val scale = max(viewHeight.toFloat() / previewSize.height, viewWidth.toFloat() / previewSize.width)
             with(matrix) {
                 setRectToRect(viewRect, bufferRect, Matrix.ScaleToFit.FILL)
                 postScale(scale, scale, centerX, centerY)
@@ -421,7 +422,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.On
             val rotation = activity.windowManager.defaultDisplay.rotation
 
             val captureBuilder = cameraDevice?.createCaptureRequest(CameraDevice.TEMPLATE_STILL_CAPTURE)?.apply {
-                addTarget(imageReader?.surface)
+                addTarget(imageReader?.surface!!)
 
                 set(CaptureRequest.JPEG_ORIENTATION, (ORIENTATIONS.get(rotation) + sensorOrientation + 270) % 360)
 
@@ -447,7 +448,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener, ActivityCompat.On
             captureSession?.apply {
                 stopRepeating()
                 abortCaptures()
-                capture(captureBuilder?.build(), captureCallback, null)
+                capture(captureBuilder?.build()!!, captureCallback, null)
             }
         } catch (e: CameraAccessException) {
             Log.e(TAG, e.toString())
