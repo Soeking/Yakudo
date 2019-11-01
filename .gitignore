@@ -4,6 +4,8 @@
 *.war
 *.ear
 hs_err_pid*
+openCVLibrary342/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out/org/opencv/engine/OpenCVEngineInterface.java
+openCVLibrary342/build/outputs/logs/manifest-merger-debug-report.txt
 
 ## Robovm
 /ios/robovm-build/
